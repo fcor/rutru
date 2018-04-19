@@ -46,15 +46,37 @@ button{
   transform: scale(.95);
 }
 
+.text{
+  margin: 0;
+  font-family: 'Varela Round';
+  font-size: 16px;
+}
+
+.section-title{
+  margin: 0;
+  font-family: 'Novecento';
+  font-size: 22px;
+}
+
+.column{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
 .description{
   height: 600px;
   background-image: url('./images/arch.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   color: white;
   text-align: center;
 }
@@ -66,8 +88,38 @@ button{
 }
 
 .description-text{
-  margin: 0;
-  font-family: 'Varela Round';
-  font-size: 18px;
   width: 50%;
+}
+
+.transport{
+  color: black;
+  text-align: center;
+  padding: 35px 0;
+}
+
+.transport p{
+  margin-top: 30px
+}
+
+.transport-title{
+  color: #832124;
+  margin-bottom: 30px;
+}
+
+.transport-cards{
+  width: 60%;
+}
+
+.t-card{
+  width: 280px;
+}
+
+.t-card .text{
+  margin: 20px 0;
+}
+
+.icon{
+  width: 150px;
+  height: 150px;
+  background-color: lightgray;
 }
