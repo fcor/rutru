@@ -123,3 +123,56 @@ button{
   height: 150px;
   background-color: lightgray;
 }
+
+.customs{
+  color: white;
+  text-align: left;
+  padding: 35px 50px;
+  background-color: #832124;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.customs-box{
+  margin: 0 auto;
+}
+
+.customs-title{
+  margin-bottom: 20px;
+}
+
+.customs-text{
+  width: 580px;
+}
+
+.c-cards{
+  padding: 25px 0 0 0;
+  display: grid;
+  grid-template: repeat(3, auto) / repeat(2, auto);
+  grid-gap: 0px 50px;
+}
+
+.c-card{
+  width: 470px;
+  display: grid;
+  grid-template: auto auto / 70px 400px;
+  grid-gap: 0px 10px;
+  padding: 5px 0;
+}
+
+.icon-small{
+  width: 70px;
+  height: 70px;
+  background-color: lightgray;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 2;
+}
+
+.c-card-title{
+  font-family: 'Novecento';
+  margin: 0;
+}
+
+.c-card-text{
+  font-size: 12px;
+}
