@@ -40,6 +40,7 @@ button{
 .transparent{
   background: transparent;
   border: 2px solid white;
+  font-size: 20px;
 }
 
  button:active{
@@ -179,4 +180,50 @@ button{
 
 .c-card-text{
   font-size: 12px;
+}
+
+.storage{
+  color: black;
+  text-align: center;
+  padding: 35px 0;
+}
+
+.storage-text{
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.storage-title{
+  color: #832124;
+  margin-bottom: 20px;
+}
+
+.storage-cards{
+  width: 65%;
+}
+
+.s-card{
+  padding: 30px 15px;
+  width: 280px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 15px;
+}
+
+.s-card .text{
+  margin: 20px 0 0 0;
+}
+
+.next{
+  height: 500px;
+  background-image: url('./images/air.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+}
+
+.next-title{
+  font-size: 35px;
+  width: 60%;
+  font-family: 'Novecento';
 }

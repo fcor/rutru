@@ -4,6 +4,8 @@ import Header from './components/Header'
 import Description from './components/Description'
 import Transport from './components/Transport'
 import Customs from './components/Customs'
+import Storage from './components/Storage'
+import NextStep from './components/NextStep'
 
 class App extends Component {
   render() {
@@ -13,6 +15,8 @@ class App extends Component {
         <Description />
         <Transport />
         <Customs />
+        <Storage />
+        <NextStep />
       </div>
     );
   }
