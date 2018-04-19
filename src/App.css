@@ -125,6 +125,11 @@ button{
   background-color: lightgray;
 }
 
+.t-icon{
+  width: 100px;
+  height: 100px;
+}
+
 .customs{
   color: white;
   text-align: left;
